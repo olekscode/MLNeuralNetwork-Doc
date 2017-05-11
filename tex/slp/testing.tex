@@ -1,0 +1,54 @@
+I test my SLPerceptron with BinaryThreshold activation function on 4 linearly-separable logical functions: AND, OR, NAND, and NOR, and it converges on all of them.
+
+Here is the test for AND function. Other 3 look exactly the same (only the expected output values are different).
+
+\begin{lstlisting}
+testANDConvergence
+   "tests if perceptron is able to classify linearly-separable data"
+   "AND function"
+
+   | perceptron inputs outputs k |
+   perceptron := SLPerceptron new initialize: 2 classes: 1.
+   perceptron activation: (BinaryThreshold new).
+ 
+   "logical AND function"
+   inputs := #(#(0 0) #(0 1) #(1 0) #(1 1)).
+   outputs := #(#(0) #(0) #(0) #(1)).
+ 
+   1 to: 100 do: [ :i |
+      k := 4 atRandom.
+      perceptron learn: (inputs at: k) target: (outputs at: k) ].
+ 
+   1 to: 4 do: [ :i |
+      self assert: (perceptron value: (inputs at: i)) equals: (outputs at: i) ].
+\end{lstlisting}
+
+And this test (or rather a demonstration) shows that single-layer perceptron can not learn the XOR function (not linearly-separable).
+
+\begin{lstlisting}
+testXORDivergence
+   "single-layer perceptron should not be uneble to classify data that is not linearly-separable"
+   "XOR function"
+   
+   | perceptron inputs outputs k notEqual |
+   perceptron := SLPerceptron new initialize: 2 classes: 1.
+   perceptron activation: (BinaryThreshold new).
+ 
+   "logical XOR function"
+   inputs := #(#(0 0) #(0 1) #(1 0) #(1 1)).
+   outputs := #(#(0) #(1) #(1) #(0)).
+ 
+   1 to: 100 do: [ :i |
+      k := 4 atRandom.
+      perceptron learn: (inputs at: k) target: (outputs at: k) ].
+ 
+   notEqual := false.
+ 
+   1 to: 4 do: [ :i |
+      notEqual := notEqual or:
+         ((perceptron value: (inputs at: i)) ~= (outputs at: i)) ].
+  
+   self assert: notEqual.
+\end{lstlisting}
+
+I was also trying to test the Sigmoid function, but that test failed. This means that either perceptrons (as defined at the beginning of this post) can not have sigmoid as their activation, or that I don’t have a good enough understanding of how to implement a perceptron with sigmoid.

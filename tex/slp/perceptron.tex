@@ -1,0 +1,12 @@
+First of all, we need to define a perceptron. It is the most basic form of an artificial neural network, still, most people fail to clearly define what it actually is.
+
+For now I will refer to a perceptron as an artificial neural network that follows the perceptron learning procedure.
+
+This definition implies some restrictions to what perceptrons are and what can they do.
+
+\subsection{Restrictions of perceptrons}
+\begin{itemize}
+  \item They can only converge on a linearly-separable input (see XOR problem, Minski \& Pappet). But if the input is linearly-separable, the perceptron is guaranteed to converge on it, regardless of the initial weights and learning rate (see Perceptron Convergence Theorem, proven in 1962 by Block and Novikoff)
+  \item Perceptrons (as defined above) can have only one layer of neurons. The thing is (week 3 of the Neural Networks for Machine Learning course by Geoffrey Hinton), the perceptron learning procedure can only be applied to a single layer of neurons. Neurons in hidden layers would need some sort of feedback in order to calculate their errors and update the weights. That’s why we need a different learning algorithm (e. g. backpropagation, which will be implemented on the next stage).
+  \item Perceptrons can only learn online (one example at a time). That’s because the perceptron learning is based on adding (or subtracting) the input vector to the weights based on the error of a binary classifier (this error can be -1, 0, or 1).
+\end{itemize}

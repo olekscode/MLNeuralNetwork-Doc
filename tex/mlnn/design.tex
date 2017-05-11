@@ -1,0 +1,10 @@
+\subsection{Weight initialization}
+Neural network is an [optimization system] that changes its weights to improve the performance on a given dataset. Each configuration of weights represents a point in the multidimentional space. The process of learning is based on minimizing the cost function, defined on that weight space. Therefore, setting the initial weights means choosing the starting point for the process of minimization. If the initial weights are close enough to the global minimum (best set of weights), the learning will be fast. If they are far - the network will take a lot of time to learn, or fail to converge at all.
+
+[Unsupervised pre-training]
+
+Initializing all weights with zeroes is the easiest thing to do. However, a network with such weights may never learn anything. All weight updatades $\Delta w$ will be equal to zero.
+
+It is recommended to initialize the weights with a small random values. Initializing a network with random weight can be a massive boost in performance. Pinto et al. [?] evaluated thousands of architectures on a number of object recognition tasks and found that random weights performed only slightly worse than pretrained weights. And \cite{Saxe-et-al-TODO} showed that while random weights are no substitute for pretraining and finetuning, their use for architecture search can improve the performance of state-of-the-art systems. 
+
+According to \cite{Trushevskyi-2014}, a good way to initialize the weights of a layer $L$ is by choosing random values from range $\big[-\frac{1}{2k}, \frac{1}{2k}\big]$, where $k$ is the number of neurons in layer $L$.

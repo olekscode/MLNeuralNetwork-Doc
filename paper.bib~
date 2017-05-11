@@ -1,0 +1,120 @@
+@book{Goodfellow-et-al-2016,
+    title={Deep Learning},
+    author={Ian Goodfellow and Yoshua Bengio and Aaron Courville},
+    publisher={MIT Press},
+    note={\url{http://www.deeplearningbook.org}},
+    year={2016}
+}
+
+@book{Haykin-2005,
+    title={Neural Networks. A Comprehensive Foundation},
+    author={Simon Haykin},
+    publisher={Prentice Hall},
+    year={2005},
+    edition={second}
+}
+
+@book{Hassoun-1995,
+    title={Fundamentals of Artificial Neural Networks},
+    author={Mohamad H. Hassoun},
+    publisher={MIT Press},
+    year={1995}
+}
+
+@book{Brauer-2015,
+    title={Programming Smalltalk - Object-Orientation from the Beginning},
+    author={Johannes Brauer},
+    publisher={Springer Vieweg},
+    year={2015}
+}
+
+@book{Russell-Norvig-2010,
+    author={Stuart Russell, Peter Norvig},
+    title={Artificial Intelligence. A Modern Approach},
+    publisher={Prentice Hall},
+    year={2010},
+    edition={third}
+}
+
+@book{Mitchell-1997,
+    author={Tom Mitchell},
+    title={Machine Learning},
+    publisher={McGraw-Hill Science/Engineering/Math},
+    year={1997}
+}
+
+@book{MacKay-2003,
+    author={David J. C. MacKay},
+    title={Information Theory, Inference, and Learning Algorithms},
+    publisher={Cambridge University Press},
+    year={2003}
+}
+
+@book{Hastie-et-al-2013,
+    author={Trevor Hastie, Robert Tibshirani, Jerome Friedman},
+    title={The Elements of Statistical Learning. Data Mining, Inference and Prediction},
+    publisher={Springer},
+    year={2013},
+    edition={second}
+}
+
+@book{Bishop-2006,
+    author={Christopher M. Bishop},
+    title={Pattern Recognition and Machine Learning},
+    publisher={Springer},
+    year={2006}
+}
+
+@article{Coates-et-al-2011,
+    author={Adam Coates, Honglak Lee, Andrew Y. Ng},
+    title={An Analysis of Single-Layer Networks in Unsupervised Feature Learning},
+    journal={The Journal of Machine Learning Research (JMLR)},
+    year={2011},
+    volume={15},
+    pages={215-223}
+}
+
+@article{Raina-et-al-2009,
+    author={Rajat Raina, Anand Madhavan, Andrew Y. Ng},
+    title={Large-scale Deep Unsupervised Learning using Graphics Processors},
+    year={2009}
+}
+
+@article{Rumelhart-et-al-1986,
+    author={David E. Rumelhart, Geoffrey E. Hinton, Ronald J. Williams},
+    title={Learning Representations by Back-propagating Errors},
+    journal={Nature},
+    year={1986},
+    volume={323},
+    pages={533-536}
+}
+
+@article{Flynn-1979,
+    author={Michael J Flynn},
+    title={Some Computer Organizations and Their Effectiveness},
+    journal={IEEE Transactions on Computers},
+    year={1979},
+    volume={c-21}
+}
+
+@inproceedings{Dahl-et-al-2008,
+  author={George Dahl, Alan McAvinney, Tia Newhall},
+  title={Parallelizing Neural Network Training for Cluster Systems},
+  pages={220-225},
+  crossref={Proc-PDCN-2008}
+}
+
+@proceedings{Proc-PDCN-2008,
+  title={PDCN '08 Proceedings of the IASTED International Conference on Parallel and Distributed Computing and Networks},
+  booktitle={PDCN '08 Proceedings of the IASTED International Conference on Parallel and Distributed Computing and Networks},
+  publisher={ACTA Press Anaheim},
+  year={2008}
+}
+
+@online{Roberts-2000,
+  author={Eric Roberts},
+  title={Neural Networks},
+  year={2000},
+  url={http://cs.stanford.edu/people/eroberts/courses/soco/projects/neural-networks/index.html},
+  urldate={2017-04-12}
+}

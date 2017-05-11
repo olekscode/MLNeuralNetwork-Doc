@@ -1,0 +1,1009 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.22)  10 MAY 2017 23:25
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**paper.tex
+(./paper.tex
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 10 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./artstyle.sty
+Package: artstyle 
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 95.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/03/03 v2.15a AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen105
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen106
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count89
+LaTeX Info: Redefining \frac on input line 199.
+\uproot@=\count90
+\leftroot@=\count91
+LaTeX Info: Redefining \overline on input line 297.
+\classnum@=\count92
+\DOTSCASE@=\count93
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 630.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 631.
+\macc@depth=\count94
+\c@MaxMatrixCols=\count95
+\dotsspace@=\muskip10
+\c@parentequation=\count96
+\dspbrk@lvl=\count97
+\tag@help=\toks17
+\row@=\count98
+\column@=\count99
+\maxfields@=\count100
+\andhelp@=\toks18
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks19
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2735.
+LaTeX Info: Redefining \] on input line 2736.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count101
+\float@exts=\toks21
+\float@box=\box28
+\@float@everytoks=\toks22
+\@floatcapt=\box29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2015/08/19 v1.8n multicolumn formatting (FMi)
+\c@tracingmulticols=\count102
+\mult@box=\box30
+\multicol@leftmargin=\dimen114
+\c@unbalance=\count103
+\c@collectmore=\count104
+\doublecol@number=\count105
+\multicoltolerance=\count106
+\multicolpretolerance=\count107
+\full@width=\dimen115
+\page@free=\dimen116
+\premulticols=\dimen117
+\postmulticols=\dimen118
+\multicolsep=\skip55
+\multicolbaselineskip=\skip56
+\partial@page=\box31
+\last@line=\box32
+\maxbalancingoverflow=\dimen119
+\mult@rightbox=\box33
+\mult@grightbox=\box34
+\mult@gfirstbox=\box35
+\mult@firstbox=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\c@columnbadness=\count108
+\c@finalcolumnbadness=\count109
+\last@try=\dimen120
+\multicolovershoot=\dimen121
+\multicolundershoot=\dimen122
+\mult@nat@firstbox=\box54
+\colbreak@box=\box55
+\mc@col@check@num=\count110
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count111
+\lst@gtempboxa=\box56
+\lst@token=\toks23
+\lst@length=\count112
+\lst@currlwidth=\dimen123
+\lst@column=\count113
+\lst@pos=\count114
+\lst@lostspace=\dimen124
+\lst@width=\dimen125
+\lst@newlines=\count115
+\lst@lineno=\count116
+\lst@maxwidth=\dimen126
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count117
+\lst@skipnumbers=\count118
+\lst@framebox=\box57
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count119
+\Gm@cntv=\count120
+\c@Gm@tempcnt=\count121
+\Gm@bindingoffset=\dimen127
+\Gm@wd@mp=\dimen128
+\Gm@odd@mp=\dimen129
+\Gm@even@mp=\dimen130
+\Gm@layoutwidth=\dimen131
+\Gm@layoutheight=\dimen132
+\Gm@layouthoffset=\dimen133
+\Gm@layoutvoffset=\dimen134
+\Gm@dimlist=\toks24
+)
+\imgwidth=\skip57
+) (./paper.aux)
+\openout1 = `paper.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count122
+\scratchdimen=\dimen135
+\scratchbox=\box58
+\nofMPsegments=\count123
+\nofMParguments=\count124
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen136
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
+\everyMPtoPDFconversion=\toks26
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count128
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* bindingoffset: 28.45274pt
+* modes: 
+* h-part:(L,W,R)=(56.9055pt, 455.24413pt, 56.9055pt)
+* v-part:(T,H,B)=(85.35826pt, 702.78308pt, 56.9055pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24413pt
+* \textheight=702.78308pt
+* \oddsidemargin=13.08826pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-18.78552pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=38.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 12.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 12.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./paper.toc)
+\tf@toc=\write3
+\openout3 = `paper.toc'.
+
+ [1
+
+]
+Chapter 1.
+(./tex/intro/intro.tex (./tex/intro/related.tex) (./tex/intro/pharo.tex
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+)
+(./tex/intro/install.tex
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 8.
+ [2
+
+])
+(./tex/intro/usage.tex
+Overfull \hbox (4.53946pt too wide) in paragraph at lines 1--2
+\OT1/cmr/m/n/12 the net-work ar-chi-tec-ture, de-fined by a sim-ple one-dimensi
+onal ar-ray of in-te-gers $#(\OML/cmm/m/it/12 s[]s[]:::s[]\OT1/cmr/m/n/12 )$.
+ []
+
+) (./tex/intro/contribute.tex))
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[3]
+Chapter 2.
+(./tex/mlintro/mlintro.tex (./tex/mlintro/ml.tex
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no Ô in font cmr12!
+Missing character: There is no ¨ in font cmr12!
+Missing character: There is no Å in font cmr12!
+ [4
+
+]) (./tex/mlintro/ann.tex
+[5]) (./tex/mlintro/neuron.tex
+<./img/bio_neuron.png, id=33, 702.625pt x 501.875pt>
+File: ./img/bio_neuron.png Graphic file (type png)
+
+<use ./img/bio_neuron.png>
+Package pdftex.def Info: ./img/bio_neuron.png used on input line 14.
+(pdftex.def)             Requested size: 318.6695pt x 227.62596pt.
+ [6]
+<./img/artif_neuron.jpg, id=38, 803.0pt x 524.96124pt>
+File: ./img/artif_neuron.jpg Graphic file (type jpg)
+
+<use ./img/artif_neuron.jpg>
+Package pdftex.def Info: ./img/artif_neuron.jpg used on input line 39.
+(pdftex.def)             Requested size: 254.93655pt x 166.66132pt.
+) (./tex/mlintro/structure.tex [7 <./img/bio_neuron.png> <./img/artif_neuron.jp
+g>]
+<./img/recurrent.png, id=44, 210.7875pt x 150.5625pt>
+File: ./img/recurrent.png Graphic file (type png)
+
+<use ./img/recurrent.png>
+Package pdftex.def Info: ./img/recurrent.png used on input line 7.
+(pdftex.def)             Requested size: 136.57462pt x 97.5543pt.
+ <./img/feedfwd.png, id=46, 210.7875pt x 150.5625pt>
+File: ./img/feedfwd.png Graphic file (type png)
+
+<use ./img/feedfwd.png>
+Package pdftex.def Info: ./img/feedfwd.png used on input line 8.
+(pdftex.def)             Requested size: 136.57462pt x 97.5543pt.
+
+<./img/full_feedfwd.png, id=47, 210.7875pt x 150.5625pt>
+File: ./img/full_feedfwd.png Graphic file (type png)
+
+<use ./img/full_feedfwd.png>
+Package pdftex.def Info: ./img/full_feedfwd.png used on input line 9.
+(pdftex.def)             Requested size: 136.57462pt x 97.5543pt.
+ <./img/net.jpg, id=48, 1027.84pt x 773.89125pt>
+File: ./img/net.jpg Graphic file (type jpg)
+
+<use ./img/net.jpg>
+Package pdftex.def Info: ./img/net.jpg used on input line 36.
+(pdftex.def)             Requested size: 318.6695pt x 239.93922pt.
+)) [8 <./img/recurrent.png> <./img/feedfwd.png> <./img/full_feedfwd.png>] [9 <.
+/img/net.jpg>]
+Chapter 3.
+(./tex/slp/slp.tex <./img/slp.png, id=58, 662.475pt x 391.4625pt>
+File: ./img/slp.png Graphic file (type png)
+
+<use ./img/slp.png>
+Package pdftex.def Info: ./img/slp.png used on input line 7.
+(pdftex.def)             Requested size: 409.71693pt x 242.1069pt.
+ (./tex/slp/perceptron.tex [10
+
+ <./img/slp.png (PNG copy)>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+)
+(./tex/slp/design.tex
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [11]
+<./img/activation1.png, id=65, 501.875pt x 250.9375pt>
+File: ./img/activation1.png Graphic file (type png)
+
+<use ./img/activation1.png>
+Package pdftex.def Info: ./img/activation1.png used on input line 29.
+(pdftex.def)             Requested size: 364.19669pt x 182.10689pt.
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+<./img/activation2.png, id=66, 642.4pt x 260.975pt>
+File: ./img/activation2.png Graphic file (type png)
+
+<use ./img/activation2.png>
+Package pdftex.def Info: ./img/activation2.png used on input line 38.
+(pdftex.def)             Requested size: 409.71693pt x 166.45pt.
+ [12 <./img/activation1.png (PNG copy)>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+<./img/conv.png, id=71, 602.25pt x 407.5225pt>
+File: ./img/conv.png Graphic file (type png)
+ <use ./img/conv.png>
+Package pdftex.def Info: ./img/conv.png used on input line 59.
+(pdftex.def)             Requested size: 364.19669pt x 246.44926pt.
+ [13 <./img/activation2.png (PNG copy)>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+) (./tex/slp/implementation.tex
+File: ./img/slp.png Graphic file (type png)
+
+<use ./img/slp.png>
+Package pdftex.def Info: ./img/slp.png used on input line 5.
+(pdftex.def)             Requested size: 409.71693pt x 242.1069pt.
+ [14 <./img/conv.png (PNG copy)>]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+
+Overfull \hbox (404.85439pt too wide) in paragraph at lines 24--26
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][] 
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+Overfull \hbox (3.38028pt too wide) in paragraph at lines 45--46
+[]\OT1/cmr/m/n/12 According to Nu-mer-i-cal Meth-ods book, each func-tion shoul
+d im-ple-ment the value: method.
+ []
+
+[15]
+Overfull \hbox (101.70491pt too wide) in paragraph at lines 64--66
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ò in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+[16]
+Overfull \hbox (468.30428pt too wide) in paragraph at lines 116--118
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][] 
+ []
+
+) (./tex/slp/testing.tex
+Overfull \hbox (24.15504pt too wide) in paragraph at lines 7--8
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (3.00508pt too wide) in paragraph at lines 20--22
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (108.7549pt too wide) in paragraph at lines 23--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (228.60469pt too wide) in paragraph at lines 30--31
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[17]
+Overfull \hbox (3.00508pt too wide) in paragraph at lines 43--45
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (17.10506pt too wide) in paragraph at lines 49--51
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+)) [18]
+Chapter 4.
+(./tex/mlnn/mlnn.tex <./img/mlnn.png, id=91, 1485.55pt x 612.2875pt>
+File: ./img/mlnn.png Graphic file (type png)
+
+<use ./img/mlnn.png>
+Package pdftex.def Info: ./img/mlnn.png used on input line 3.
+(pdftex.def)             Requested size: 455.24413pt x 187.6303pt.
+ <./img/backprop_seq.png, id=92, 1194.4625pt x 762.85pt>
+File: ./img/backprop_seq.png Graphic file (type png)
+
+<use ./img/backprop_seq.png>
+Package pdftex.def Info: ./img/backprop_seq.png used on input line 10.
+(pdftex.def)             Requested size: 455.24413pt x 290.74738pt.
+ [19
+
+ <./img/mlnn.png (PNG copy)>]
+(./tex/mlnn/not_mlp.tex
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ¬ in font cmr12!
+Missing character: There is no † in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+) (./tex/mlnn/design.tex [20 <./img/backprop_seq.png (PNG copy)>]) (./tex/mlnn/
+implementation.tex) (./tex/mlnn/testing.tex)) [21]
+(./tex/summary.tex) (./paper.bbl [22
+
+]
+Missing character: There is no √ in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no í in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no É in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no à in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ≤ in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no Å in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no å in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∫ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no π in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ì in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ê in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ® in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∫ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∫ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no æ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ± in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∏ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ú in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no æ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ¥ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Å in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∫ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no á in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∏ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ö in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ª in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no º in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ≤ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no à in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no É in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no á in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no π in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no æ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no º in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∂ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ¢ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no æ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ä in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∏ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no á in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no ñ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∞ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Å in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ø in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no µ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∫ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∏ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∞ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∑ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∞ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Å in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Ç in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no æ in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no Å in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no É in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ≤ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no ∞ in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no – in font cmti12!
+Missing character: There is no Ω in font cmti12!
+Missing character: There is no — in font cmti12!
+Missing character: There is no è in font cmti12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no õ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no £ in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no º in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no µ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no ñ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ü in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ≤ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no § in font cmr12!
+Missing character: There is no — in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no Ω in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∫ in font cmr12!
+Missing character: There is no – in font cmr12!
+Missing character: There is no ∞ in font cmr12!
+) [23
+
+] (./paper.aux) ) 
+Here is how much of TeX's memory you used:
+ 4632 strings out of 494440
+ 63878 string characters out of 6173198
+ 157078 words of memory out of 5000000
+ 7769 multiletter control sequences out of 15000+600000
+ 14522 words of font info for 56 fonts, out of 8000000 for 9000
+ 430 hyphenation exceptions out of 8191
+ 38i,11n,45p,929b,1510s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmsl12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/ms
+bm10.pfb>
+Output written on paper.pdf (24 pages, 584691 bytes).
+PDF statistics:
+ 154 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+

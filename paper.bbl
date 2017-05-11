@@ -1,0 +1,58 @@
+\begin{thebibliography}{10}
+
+\bibitem{PBE2}
+Alexandre Bergel, Damien Cassou, Stéphane Ducasse, and Jannik Laval.
+\newblock {\em Deep into Pharo}.
+\newblock Square Bracket Associates, first edition, 2013.
+
+\bibitem{Goodfellow-et-al-2016}
+Ian Goodfellow, Yoshua Bengio, and Aaron Courville.
+\newblock {\em Deep Learning}.
+\newblock MIT Press, 2016.
+\newblock Available at \url{http://www.deeplearningbook.org}.
+
+\bibitem{Hastie-et-al-2013}
+Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
+\newblock {\em The Elements of Statistical Learning. Data Mining, Inference and
+  Prediction}.
+\newblock Springer, second edition, 2013.
+
+\bibitem{Haykin-2005}
+Simon Haykin.
+\newblock {\em Neural Networks. A Comprehensive Foundation}.
+\newblock Prentice Hall, second edition, 2005.
+
+\bibitem{MacKay-2003}
+David J.~C. MacKay.
+\newblock {\em Information Theory, Inference, and Learning Algorithms}.
+\newblock Cambridge University Press, 2003.
+
+\bibitem{Mitchell-1997}
+Tom Mitchell.
+\newblock {\em Machine Learning}.
+\newblock McGraw-Hill Science/Engineering/Math, 1997.
+
+\bibitem{Raina-et-al-2009}
+Rajat Raina, Anand Madhavan, and Andrew~Y. Ng.
+\newblock Large-scale deep unsupervised learning using graphics processors.
+\newblock 2009.
+
+\bibitem{Russell-Norvig-2010}
+Stuart Russell and Peter Norvig.
+\newblock {\em Artificial Intelligence. A Modern Approach}.
+\newblock Prentice Hall, third edition, 2010.
+
+\bibitem{Saxe-et-al-TODO}
+Andrew~M. Saxe, Pang~Wei Koh, Zhenghao Chen, Maneesh Bhand, Bipin Suresh, and
+  Andrew~Y. Ng.
+\newblock On random weights and unsupervised feature learning.
+
+\bibitem{Trushevskyi-2014}
+В.~М. Трушевський, Г.~А. Шинкаренко, and Н.~М.
+  Щербина.
+\newblock {\em Метод скінченних елементів і
+  штучні нейронні мережі. Теоретичні
+  аспекти та застосування}.
+\newblock ЛНУ імені Івана Франка, 2014.
+
+\end{thebibliography}

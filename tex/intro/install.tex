@@ -1,0 +1,11 @@
+To use my library you must first install Pharo. It is available for all major operating systems
+
+\subsection{Getting Pharo}
+
+\subsection{Installing the Dependencies}
+Here is the complete list of dependencies:
+\begin{itemize}
+  \item \textbf{PolyMath} - a library for numerical methods. It provides MATLAB-like vectors and matrices. It is simmilar to numpy library in Python.
+  \item \textbf{Roassal} - a library for agile visualizations. The only part dependent on Roassal is MLVisualizer class. All data and metrics are provided in a type that is supported either by Pharo base, or by PolyMath. So if you wish to use something other visualization tool - you are free to do that. However, all examples in this [thesis] will be visualised with MLVisualizer which uses Roassal.
+  \item \textbf{IdxReader} - a package for reading the data in idx format, designed by [Guilermo Polito]. The MLDataReader class uses it to read the MNIST dataset of handwritten digits. If you don't want to use this dataset - you can ignore this dependency. Everything else will work just fine.
+\end{itemize}

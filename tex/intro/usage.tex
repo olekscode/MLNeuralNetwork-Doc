@@ -1,0 +1,7 @@
+To create an instance of MLNeuralNetwork class you must provide an inforamtion about the network architecture, defined by a simple one-dimensional array of integers $\#(s_{1} s_{2} ... s_{n})$. The size of an array $n$ represents the number of layers in the network, and each number $s_{i}$ is the number of neurons in that layer.
+
+\begin{lstlisting}
+neuralNet := MLNeuralNetwork new initialize: #(784 500 10).
+\end{lstlisting}
+
+This code will create a neural network with 784 input units, one hidden layer with 500 neurons, and an output layer with 10 neurons (this network can be used to classify the input data into 10 classes).

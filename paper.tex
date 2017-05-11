@@ -1,0 +1,33 @@
+\documentclass[a4paper, 12pt, oneside]{book}
+
+\usepackage{artstyle}
+
+\graphicspath{{./img/}}
+
+\title{Object-oriented Implementations \\
+       of Artificial Neural Networks}
+\author{Oleksandr Zaytsev}
+
+\begin{document}
+  \maketitle
+  \tableofcontents
+  
+  \chapter{Introduction}
+  \input{tex/intro/intro}
+  
+  \chapter{Machine learning with neural networks}
+  \input{tex/mlintro/mlintro}
+  
+  \chapter{Single-layer perceptron}
+  \input{tex/slp/slp}
+  
+  \chapter{Multi-layer neural network}
+  \input{tex/mlnn/mlnn}
+  
+  \chapter*{Summary}
+  \input{tex/summary}
+  
+%   \bibliographystyle{apalike}
+  \bibliographystyle{plain}
+  \bibliography{paper}
+\end{document}

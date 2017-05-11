@@ -1,0 +1,22 @@
+In this chapter I will describe my implementation of a single-layer perceptron in Pharo. It will support multiclass classification (one or many neurons). Each neuron will be implemented as an object. The code of this project can be found is my NeuralNetwork repository on Smalltalkhub\footnote{http://smalltalkhub.com/\#!/~Oleks/NeuralNetwork}.
+
+I will start by illustrating the design issues and different approaches to the implementation of every single part of this project. It will be quite long, so here is my final design:
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.9\linewidth]{slp}
+  \caption{Object-oriented design of a single-layer perceptron}
+  \label{fig:slp1}
+\end{figure}
+
+\section{What is a perceptron?}
+\input{tex/slp/perceptron}
+
+\section{Design issues}
+\input{tex/slp/design}
+
+\section{Implementation}
+\input{tex/slp/implementation}
+     
+\section{Testing}
+\input{tex/slp/testing}
