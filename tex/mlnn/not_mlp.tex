@@ -1,3 +1,15 @@
-When writing about neural networks, many authors (most of them in fact) start by describing the single-layer perceptron, talking about its restrictions (XOR problem), and then introduce the awesome multi-layer perceptron with backpropagation learning procedure and its amazing capabilities. Many famous software libraries share this terminology. For example, scikit-learn with its MLPClassifier (Multi-Layer Perceptron Classifier).
-But in his Neural Networks for Machine Learning course on Coursera Jeoffrey Hinton argues that we shouldn’t use such term as “multi-layer perceptron”, because the perceptron learning procedure can not be applied to hidden layers. 
-Personally, I just think that the term “perceptron” is even more misleading than “neural network”. Very few people can clearly define what perceptron is, and most of us mean different things when speaking of perceptrons. So I prefer to apply the term “perceptron” only to those neural networks which adjust their weights using the perceptron learning procedure (which is a simple error-correction rule that can not be applied to multiple layers).
+When writing about neural networks, most authors start by describing the single-layer perceptron, showing that it is restricted to the problems that are linearly separable. Then they introduce us to a concept of a much more powerful feedforward neural network, called a multi-layer perceptron. There is one big problem though with using a word "perceptron". Just like "neural networks", this term is extremely misleading. Most of the time people mean different things when they talk about perceptrons. In some literature perceptron is a neural network, in other - it is a single neuron.
+
+Personally, I like the view of Geoffrey Hinton, expressed in his famous MOOC: perceptron is an artificial neural network that learns by following perceptron learning procedure.
+
+This procedure is based on a concept of error, which can only be calculated for a single output layer of neurons. Because the error is sort of a difference between the expected output, and the one that was received:
+
+error = (expected output) - (actual output)
+
+But what is the expected output of a hidden layer? We can't tell by just looking at the data. Finding this error would require us to solve the problem of optimisation. We can't just update the weights using the simple error-based rule. Therefore, the above definition implies that perceptrons can only have one layer of neurons.
+
+Therefore, in this work, I will be referring to perceptrons as to the single-layer neural networks that learn by updating their weights according to the perceptron learning procedure. Feedforward neural networks with two or more layers of neurons will be called the multi-layer neural networks.
+
+Another thing that makes perceptrons special is the fact that they are guaranteed to converge on a linearly separable data. This is not the case with multi-layer networks
+
+Many famous software libraries share this terminology. For example, scikit-learn with its MLPClassifier (Multi-Layer Perceptron Classifier).
