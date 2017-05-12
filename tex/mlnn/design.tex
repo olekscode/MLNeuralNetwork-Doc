@@ -1,3 +1,37 @@
+\subsection{LearningAlgorithm class: Strategy Pattern}
+Backpropagation is the most widely used algorithm for training multi-layer neural networks. But not the only one. There are many other algorithms available, such as… . Though, at this point I will not be implementing anything except backpropagation, I don’t want to force it onto the user and make him redesign half of the framework in order to use some other algorithm.
+
+But even backpropagation comes in different forms. It can be update the weights after each training example (online) or after looking at a whole dataset (batch). The most efficient though is the one that looks at smaller subsets of a training data before updating the weights (mini-batch). Generally speaking, these are types of learning, and they don’t affect the idea of backpropagation. But the learning algorithm as a sequence of actions changes a lot:
+
+\begin{quote}
+Online: forward — backward — update — forward — backward — update…
+Batch: forward — backward — forward — backward — … — update
+\end{quote}
+
+Another way in which implementations of backpropagation can be different is how the learning rate is chosen. The easiest solution is to let the user pick a constant learning rate, and keep it unchanged for the whole period of learning. It is not a very good approach, because:
+
+\begin{enumerate}
+  \item It can be very hard to choose a good learning rate. If it is too small, the learning will be too slow — the network will need thousands of epochs to reach some relatively good performance. If the learning rate is too big, the algorithm will eventually start diverging — the cost will be growing, meaning that the performance is only getting worse.
+  
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\imgwidth]{learningrates}
+  \caption{...}
+  \label{fig:learningrates}
+\end{figure}
+  
+  \item (Batch learning) At the beginning, when we start from some random position in a weight space, we can be really far from the desired optimum. We want our learning rate to be big enough, so that we can get relatively close to that optimum in as little steps as possible. But as we get closer, we want to reduce our learning rate, in order to approach the optimum more slowly. Otherwise we may “jump too far” and start diverging.
+  
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\linewidth]{learningrate_problems}
+  \caption{...}
+  \label{fig:learningrate_problems}
+\end{figure}
+  
+  \item When it comes to multi-layer neural networks, the surface of a cost function in a multidimensional weight space that we are trying to optimize, becomes very complex and highly nonlinear. It may have many local optima in which we may get stuck with a small learning rate. We may need an algorithm that would increase the learning rate every time we get into the local optimum.
+\end{enumerate}
+
 \subsection{Weight initialization}
 Neural network is an [optimization system] that changes its weights to improve the performance on a given dataset. Each configuration of weights represents a point in the multidimentional space. The process of learning is based on minimizing the cost function, defined on that weight space. Therefore, setting the initial weights means choosing the starting point for the process of minimization. If the initial weights are close enough to the global minimum (best set of weights), the learning will be fast. If they are far - the network will take a lot of time to learn, or fail to converge at all.
 

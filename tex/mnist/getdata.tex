@@ -1,0 +1,58 @@
+In this section I will explain where to get the data for digit recognition and how to read it into the system, storing it in the objects of Dataset class, described in the previous chapters.
+
+\subsection{Understanding the importance of data normalization}
+The first thing I did after creating this package was trying to use it for digit recognition on MNIST. The single-layer network with 784 input and 10 output neurons worked just as expected (in the following sections I will talk about it in more details), but when I training a two-layer neural network (784 input neurons, 500 neuron in the hidden layer, and 10 output neurons), the only output it was able to produce were vectors of $Float nan$ values. I used Pharo debugging and inspecting tools, wrote several tests and found out that the weight update, performed after one mini-batch training epoch with 100 training examples, set some of the weights to be equal to Float nans. All the algebraic operations applied to NaNs return NaNs. So after few more steps, all the weights turn into NaN values, and the network produces only NaN values.
+
+What is the reason of this? The errors of this kind are pretty hard to fix, because it's hard to find out what causes them. But Pharo provides advanced debuging tools that allow you to inspect the state of any object in your system at every stage of your algorithm. After inspecting the deltas (accumulated values used for weight updates) I realised that they grow (or decrease) very rapidly and have a slight probability of overflowing the Float (after 10,000 steps even a slight probability of overflow makes it very probable that at least one weight gets turned into Float nan, and this will result in all the other weights becoming NaNs as well).
+
+There are many ways of preventing this from happening. But the easiest one is to normalize the inputs by converting each pixel value from Integer in range [0, 255] to Float in [0, 1] range. This can be done using the following formula
+
+\[ v := \frac{v - min}{max - min} \]
+
+It will convert any collection of values into [0,1] range, preserving the distribution and all the statistics. In our case we just have to divide every pixel value by 255.
+
+\subsection{MNIST database of handwritten digits}
+The MNIST database of handwritten digits, available from this page, has a training set of 60,000 examples, and a test set of 10,000 examples. It is a subset of a larger set available from NIST. The digits have been size-normalized and centered in a fixed-size image. You can download it here: \url{http://yann.lecun.com/exdb/mnist/}.
+
+The website provides 4 files:
+\begin{itemize}
+  \item \textbf{train-images-idx3-ubyte.gz} - training set images (9912422 bytes)
+  \item \textbf{train-labels-idx1-ubyte.gz} - training set labels (28881 bytes)
+  \item \textbf{t10k-images-idx3-ubyte.gz} - test set images (1648877 bytes)
+  \item \textbf{t10k-labels-idx1-ubyte.gz} - test set labels (4542 bytes) 
+\end{itemize}
+
+\subsection{Reading the data}
+As it was said in the previous chapters, objects of MLNeuralNetwork class accept the Dataset object as an input. Dataset stores input and output values, used for supervised learning, and provides an interface for
+\begin{itemize}
+  \item normalizing the input values
+  \item getting all the input data as an array of PMVectors (in case of MNIST, these will be 28x28 images unrolled into a vector with 784 values)
+  \item getting all the output data as an array of PMVectors (each vector storing the expected output values of all the output neurons)
+  \item getting a random input/output pair
+  \item getting a random subset of a given size
+\end{itemize}
+
+A single example input of a neural network has to be a vector. Therefore, we have to unroll the 28x28 images provided by MNIST databese into the vectors with 784 numbers, representing the colors of pixels. Example output must be a vector of numbers, representing the desired output value of each neuron in the output layer. The best way of doing this is converting the digits 0-9 into binary vectrors where all values are equal to zeros, exept for the value, indexed by that digit.
+
+\begin{quote}
+0 -> \#(1 0 0 0 0 0 0 0 0 0) asPMVector.\\
+1 -> \#(0 1 0 0 0 0 0 0 0 0) asPMVector.\\
+2 -> \#(0 0 1 0 0 0 0 0 0 0) asPMVector.\\
+...\\
+
+9 -> \#(0 0 0 0 0 0 0 0 0 1) asPMVector.
+\end{quote}
+
+Therefore, after reading the data from idx files, we must:
+\begin{enumerate}
+  \item unrol the images, represented by matrices of numbers, into vectors
+  \item ...
+\end{enumerate}
+
+The task of reading the MNIST dataset can be split into two parts:
+\begin{enumerate}
+  \item Read the data stored in idx format into 4 arrays of training images, training labels, test images, and test labels
+  \item Store this data in two Dataset objects: training dataset and test dataset
+\end{enumerate}
+
+Let's define a MnistReader class that will provide 

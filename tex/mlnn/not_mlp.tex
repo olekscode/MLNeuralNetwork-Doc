@@ -4,7 +4,9 @@ Personally, I like the view of Geoffrey Hinton, expressed in his famous MOOC: pe
 
 This procedure is based on a concept of error, which can only be calculated for a single output layer of neurons. Because the error is sort of a difference between the expected output, and the one that was received:
 
+\begin{quote}
 error = (expected output) - (actual output)
+\end{quote}
 
 But what is the expected output of a hidden layer? We can't tell by just looking at the data. Finding this error would require us to solve the problem of optimisation. We can't just update the weights using the simple error-based rule. Therefore, the above definition implies that perceptrons can only have one layer of neurons.
 
