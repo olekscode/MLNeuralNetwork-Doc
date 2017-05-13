@@ -90,34 +90,22 @@ Now we define a method that will read MNIST images from a given file, unroll the
 readImages: path
 	"Reads MNIST images from an idx file specified by path using IdxReader. Retuns a matrix of images unroled into PMVectors with 784 elements"
 
-	| reader matrix images size |
+	| reader matrix |
 	reader := IdxReader onStream: (File named: path) readStream.
 	matrix := reader next.
 	
-	size := matrix size.
-	images := Array new: size.
-	
-	1 to: size do: [ :i |
-		images at: i put: (MLMnistReader unroll: (matrix at: i)) ].
-	
-	^ images
+	^ matrix collect: [ :v | self unroll: v ].
 \end{lstlisting}
 
 \begin{lstlisting}
 readLabels: path
 	"Reads MNIST labels from an idx file specified by path using IdxReader. Returns an array of one-hot PMVectors"
 
-	| reader array labels size |
+	| reader array |
 	reader := IdxReader onStream: (File named: path) readStream.
 	array := reader next.
 	
-	size := array size.
-	labels := Array new: size.
-	
-	1 to: size do: [ :i |
-		labels at: i put: (MLMnistReader onehot: (array at: i)) ].
-	
-	^ labels
+	^ array collect: [ :v | self onehot: v ].
 \end{lstlisting}
 
 \begin{lstlisting}
@@ -125,11 +113,10 @@ readTrainFrom: basePath
 	"Reads MNIST images and labels into a test dataset. This method assumes that the files are named exactly the same as on Yan LeCun's website and are located in a folder identified by basePath"
 
 	| images labels dataset |
-	images := MLMnistReader readImages: basePath, 'train-images.idx3-ubyte'.
-	labels := MLMnistReader readLabels: basePath,  'train-labels.idx1-ubyte'.
+	images := self readImages: basePath, 'train-images.idx3-ubyte'.
+	labels := self readLabels: basePath,  'train-labels.idx1-ubyte'.
 	
 	dataset := MLDataset new input: images output: labels.
-	
 	^ dataset normalizeInputs.
 \end{lstlisting}
 
@@ -138,8 +125,8 @@ readTestFrom: basePath
 	"Reads MNIST images and labels into a training dataset. This method assumes that the files are named exactly the same as on Yan LeCun's website and are located in a folder identified by basePath"
 
 	| images labels dataset |
-	images := MLMnistReader readImages: basePath, 't10k-images.idx3-ubyte'.
-	labels := MLMnistReader readLabels: basePath,  't10k-labels.idx1-ubyte'.
+	images := self readImages: basePath, 't10k-images.idx3-ubyte'.
+	labels := self readLabels: basePath,  't10k-labels.idx1-ubyte'.
 	
 	dataset := MLDataset new input: images output: labels.
 	^ dataset normalizeInputs.
