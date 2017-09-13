@@ -1,0 +1,5 @@
+Architectures of neural networks described above are chosen to be the same as the ones described in several other works. This way we can reproduce the historical experiments and compare the performance.
+
+The first network with a single layer of softmax neurons was repreduced from a famous TensorFlow tutorial. Experiments show that the accuracy of both networks  is about the same and slightly variates around the value of 92\%. On the other hand, the time spent on learning by TensorFlow is signisicantly (almost 180 times) smaller. This demonstrtes the implortance of parallelization of neural networks and shows the power of GPU optimization.
+
+Taking into consideration that Pharo virtual machine can only run on a single CPU core, 7 minutes spent on training a neural network that would be trained in 3 seconds by TensorFlow, is not a bad result at all.

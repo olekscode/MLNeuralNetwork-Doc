@@ -10,7 +10,7 @@
 \author{Oleksandr Zaytsev}
 
 \begin{document}
-  \maketitle
+  %\maketitle
   \tableofcontents
   
   \chapter{Introduction}
@@ -31,7 +31,19 @@
   \chapter*{Summary}
   \input{tex/summary}
   
+  \nocite{Hassoun-1995}
+  \nocite{Bishop-2006}
+  \nocite{Rumelhart-et-al-1986}
+  \nocite{PBE1}
+  \nocite{PharoNum}
+  \nocite{Bergel}
+  \nocite{BlueBook}
+  
 %   \bibliographystyle{apalike}
   \bibliographystyle{plain}
-  \bibliography{paper}
+  
+  \begin{otherlanguage}{ukrainian}
+    \renewcommand\bibname{Bibliography}
+    \bibliography{paper}
+  \end{otherlanguage}
 \end{document}

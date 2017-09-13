@@ -1,9 +1,24 @@
 To use my library you must first install Pharo. It is available for all major operating systems
 
 \subsection{Getting Pharo}
+Pharo is a modern, open-source, dynamically typed language supporting live coding and inspired by Smalltalk. The important principle behind Pharo is that it doesn’t just copy the past, but reinvents the essence behind Smalltalk. Pharo is not read-only, it integrates the changes made by community, daily\cite{PBE2}.
 
-\subsection{Installing the Dependencies}
-Here is the complete list of dependencies:
+To download Pharo, visit the official website: \url{http://pharo.org/download}.
+
+\subsection{Getting the code}
+The code of this project can be acquired from Smalltalkhub using this Metacello script (\texttt{Do It} in a Playground of your Pharo image):
+
+\begin{lstlisting}
+Metacello new 
+    repository: 'http://smalltalkhub.com/mc/Oleks/NeuralNetwork/main';
+    configuration: 'MLNeuralNetwork';
+    version: #development;
+    load.
+\end{lstlisting}
+
+Or you can get it from the GitHub repository: \url{https://github.com/olekscode/MLNeuralNetwork}. In future this project will be moved to GitHub.
+
+Parts of this project depend on the following packages. They will be automatically installed and updated by Metacello.
 \begin{itemize}
   \item \textbf{PolyMath} - a library for numerical methods. It provides MATLAB-like vectors and matrices. It is simmilar to numpy library in Python.
   \item \textbf{Roassal} - a library for agile visualizations. The only part dependent on Roassal is MLVisualizer class. All data and metrics are provided in a type that is supported either by Pharo base, or by PolyMath. So if you wish to use something other visualization tool - you are free to do that. However, all examples in this [thesis] will be visualised with MLVisualizer which uses Roassal.

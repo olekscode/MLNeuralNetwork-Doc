@@ -37,7 +37,7 @@ We will also need to prepend 1 as a bias unit to every input vector.
 
 \begin{lstlisting}
 prependBiasToInput: inputVector
-   “this method prepends 1 to input vector for a bias unit”
+   "this method prepends 1 to input vector for a bias unit"
  
    ^ (#(1), inputVector) asDhbVector.
 \end{lstlisting}
@@ -78,16 +78,16 @@ Single-layer perceptron (according to my design) is a container of neurons. The 
 
 \begin{lstlisting}
 Object subclass: #SLPerceptron
-   instanceVariableNames: ‘neurons’
-   classVariableNames: ‘’
-   package: ‘NeuralNetwork’
+   instanceVariableNames: 'neurons'
+   classVariableNames: ''
+   package: 'NeuralNetwork'
 \end{lstlisting}
 
 To create an instance of SLPerceptron we need to specify the size of the input vector and the number of classes which equals to the number of neurons in our perceptron (multiclass classification).
 
 \begin{lstlisting}
 initialize: inputSize classes: outputSize
-   “Creates an array of neurons”
+   "Creates an array of neurons"
    neurons := Array new: outputSize.
  
    1 to: outputSize do: [ :i |
@@ -98,7 +98,7 @@ The output of a single-layer perceptron is a vector of scalar outputs from each 
 
 \begin{lstlisting}
 value: input
-   “Returns the vector of outputs from each neuron”
+   "Returns the vector of outputs from each neuron"
    | outputVector |
  
    outputVector := Array new: (neurons size).

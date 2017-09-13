@@ -1,0 +1,57 @@
+In this section I will describe gradient descent and the backpropagation learning algorithm. One of the most important features of backpropagation, which makes it so popular is that it can be easily parallelized.
+
+\subsection{Gradient descent}
+The most widely used algorithm for training neural networks (and optimizing many other machine learning problems) is called gradient descent. It is based on the fact that derivative (gradient) of a function characterizes how how it grows:
+\begin{itemize}
+  \item The sign of a derivative over some parameter denotes the direction in which the function grows
+  \item The ablsolute value of derivative tells us how fast the function grows
+\end{itemize}
+Therefore, derivative of a function at some point can tell us in which direction and how far should we move to minimize the function.
+
+This helps us construct an algorithm for function minimization which is based on adding some gradient to the value of parameter.
+
+Let's say we have a cost function $J(t;w)$ that depends on the target output $t$ that we expect our model to produce, and the tunable parameter $w$ (weight). To minimize this function we change the weight $w$ by the value of gradient $-\eta\frac{\partial}{\partial w}J(t;w)$ until the function reaches the minimum (gradient becomes equal to 0.
+
+\begin{equation}
+  w = w - \eta\frac{\partial}{\partial w}J(t;w) 
+\end{equation}
+
+The parameter $\eta$ is called the learning rate. It controlls the speed of learning. If $\eta$ is big, we are making big steps in the directions in which our function descends. This means that the model learns faster, but also creates the risk of overshooting - we can jump too far to the point where the function increases again. This may result in divergence - the situation when our model keeps getting worse instead of getting better. Another problem arises when the $\eta$ is too small. First of all, such learning algorithm could take unreasonable amount of time to converge. And if the cost function that we are trying to minimize is nonlinear, we may get stuck in a local minimum. Choosing a good leraning rate is one of the hardest tasks of machine learning.
+
+\subsection{Backpropagation}
+As the number of hidden layers grows, the problem arises, as we can only compute the error of output layer by finding the deviation of hypothesis $ h_{w} $ from the desired output $ y $.
+
+The fitness function for regression is the sum of squared errors
+ 
+\begin{equation}
+  J(w) = \sum_{k=1}^{K} \sum_{i=1}^{n} (y_{i} - f_{k}(x_{i}))^{2}
+\end{equation}
+
+For classification it is defined as
+
+\begin{equation}
+  J(w) = \sum_{i=1}^{n} y_{ik} \log{f_{k}(x_{i}}
+\end{equation}
+
+The task of learning is to minimize the fitness function $ J(w) $. There are different learning algorithms for doing that. In this paper I will explain only the idea of the classical backpropagation algorithm.
+
+Backpropagation is an abbreviation for "backward propagation of errors". According to \cite{Hastie-et-al-2013}, backpropagation is a two-pass procedure, used to compute the gradients for the updates in gradient descent algorithm:
+
+\begin{itemize}
+  \item \textbf{Forward pass} -the current weights are fixed and the predicted values are computed
+  \item \textbf{Backward pass} - the errors $ \delta_{ki} $ are computed and then backpropagated to give errors $ s_{ij} $. Both sets of errors are then used to compute the gradients for updates.
+\end{itemize}
+
+The main advantage of backpropagation is that it has local nature, and thus it can be efficiently implemented on a parallel architecture computer.
+
+%\begin{align}
+%J(w) = &-\frac{1}{m} \bigg[ \sum_{i=1}^{m} \sum_{k=1}^{K}
+%    y_{k}^{(i)} \log{(h_{w}(x^{(i)}))_{k}}
+%    + (1 - y^{(i)}) \log{1 - (h_{w}(x^{(i)}))_{k}}) \bigg] \\
+%    % Regularization
+%    &+ \frac{\lambda}{2m}
+%    \sum_{l=1}^{L-1} \sum_{i=1}^{S_{l}} \sum_{j=1}^{S_{l+1}}
+%    (W_{ji}^{(l)})^{2}
+%\end{align}
+
+%[Backpropagation is usually considered to be a supervised learning method, although it is also used in some unsupervised networks - from Wikipedia, needs verification]
